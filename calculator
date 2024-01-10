@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,opt;
+    printf("Enter the number a :");
+    scanf("%d",&a);
+    printf("Enter the number b :");
+    scanf("%d",&b);
+    printf("Enter the operator : ");
+    scanf("%d",&opt);
+    if(opt=='+')
+    {
+         printf("Sum:%d",a+b);
+    }
+    else if(opt=='-')
+    {
+        printf("Difference:%d",a-b);
+    }
+    else if(opt=='*')
+    {
+       printf("Product:%d",a*b);
+    }
+    else if(opt=='/')
+    {
+       printf("Quotient:%d",a/b);
+    }
+    return 0;
+}
+           
